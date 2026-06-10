@@ -66,58 +66,13 @@ The SPI Master is implemented using a three-state FSM:
 
 The design was verified through simulation using multiple SPI transactions. Waveforms confirm successful data transmission and reception between the SPI Master and selected Slave devices.
 
-(Add waveform screenshots here)
 
-## Applications
 
-- Flash Memory Communication
-- Sensor Interfacing
-- ADC/DAC Communication
-- FPGA Systems
-- Embedded Systems
-- Wireless Communication Modules
-
-## Challenges Faced
-
-- Implementing CPOL and CPHA configurations
-- Clock synchronization between master and slave
-- Multi-slave communication management
-- FSM debugging and verification
-- Functional validation using simulation
-
-## Learning Outcomes
-
-- SPI Protocol Architecture
-- Verilog HDL Design Methodology
-- FSM Design and Implementation
-- Shift Register Based Communication
-- Digital System Verification
-- Multi-Module Integration
-
-## Tools Used
-
-- Verilog HDL
-- ModelSim / QuestaSim
-- GTKWave (if used)
-
-## Future Enhancements
-
-- FIFO Buffering
-- Interrupt Support
-- DMA Integration
-- CRC/Error Checking
-- Burst Transfer Support
-- Dynamic Slave Selection
 
 ## Author
 
 Dharmi Patel
 
-## References
 
-1. Texas Instruments – SPI Communication Basics
-2. Analog Devices – SPI Protocol Documentation
-3. Microchip Technology – SPI Documentation
-4. GeeksforGeeks – SPI Protocol
 5. Samir Palnitkar, Verilog HDL: A Guide to Digital Design and Synthesis
 6. M. Morris Mano, Digital Design
