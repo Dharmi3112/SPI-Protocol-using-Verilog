@@ -73,7 +73,7 @@ The design was verified through simulation using multiple SPI transactions. Wave
 
 ## Simulation Results
 
-![Waveform](images/SIMULATION.png)
+![Waveform](images/Simulation.png)
 
 
 
