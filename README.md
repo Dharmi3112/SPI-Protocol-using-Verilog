@@ -72,7 +72,3 @@ The design was verified through simulation using multiple SPI transactions. Wave
 ## Author
 
 Dharmi Patel
-
-
-5. Samir Palnitkar, Verilog HDL: A Guide to Digital Design and Synthesis
-6. M. Morris Mano, Digital Design
