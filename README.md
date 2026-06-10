@@ -35,6 +35,7 @@ The SPI system consists of:
 
 Only the selected slave participates in communication while other slaves remain inactive.
 
+
 ## Finite State Machine (FSM)
 
 The SPI Master is implemented using a three-state FSM:
@@ -54,6 +55,10 @@ The SPI Master is implemented using a three-state FSM:
 - Slave deselection
 - Return to IDLE state
 
+## FSM Diagram
+
+![FSM Diagram](images/FSM.png)
+
 ## Test Cases
 
 | Test Case | Master TX | Selected Slave | Expected RX |
@@ -65,6 +70,10 @@ The SPI Master is implemented using a three-state FSM:
 ## Simulation Results
 
 The design was verified through simulation using multiple SPI transactions. Waveforms confirm successful data transmission and reception between the SPI Master and selected Slave devices.
+
+## Simulation Results
+
+![Waveform](images/SIMULATION.png)
 
 
 
