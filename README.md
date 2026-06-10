@@ -79,7 +79,7 @@ The design was verified through simulation using multiple SPI transactions. Wave
 
 ## Project Report
 
-The detailed project report is available in the `report` folder.
+The detailed project report is available in the report folder.
 
 ## Author
 
