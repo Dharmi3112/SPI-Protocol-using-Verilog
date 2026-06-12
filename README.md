@@ -35,6 +35,7 @@ The SPI system consists of:
 
 Only the selected slave participates in communication while other slaves remain inactive.
 
+![Architecture](images/System_architecture.png)
 
 ## Finite State Machine (FSM)
 
